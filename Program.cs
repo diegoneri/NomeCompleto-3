@@ -16,7 +16,7 @@ namespace NomeCompleto
            Console.Write("Digite seu sobrenome: ");
            sobrenome = Console.ReadLine();
            nomeCompleto = $"{nome} {sobrenome}";
-           nomeCatalogo = $"{sobrenome.ToUpper} {nome}";
+           nomeCatalogo = $"{sobrenome.ToUpper()}, {nome}";
            Console.WriteLine($"Nome completo: {nomeCompleto}");
            Console.WriteLine($"Nome catalogo: {nomeCatalogo}");
            
